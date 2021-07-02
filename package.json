@@ -1,5 +1,5 @@
 {
-  "name": "ProjectTheaFieldApp",
+  "name": "ProjectTheaSubApp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,26 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@mauron85/react-native-background-geolocation": "^0.6.3",
+    "@react-native-community/async-storage": "^1.12.1",
+    "frisbee": "^3.1.4",
     "react": "17.0.1",
-    "react-native": "0.64.2"
+    "react-native": "0.64.2",
+    "react-native-elements": "^3.4.2",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-pulse": "^1.0.7",
+    "react-native-qrcode-svg": "^6.1.1",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-uuid": "^2.0.1",
+    "react-native-vector-icons": "^8.1.0",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
